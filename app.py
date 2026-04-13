@@ -28,6 +28,7 @@ def cargar_musica(archivo_mp3):
 
 # --- ESTILOS CSS ---
 def local_css(mood_color="#FF0055", accent_color="#00F7FF"):
+    st.markdown(f'<link rel="apple-touch-icon" href="https://raw.githubusercontent.com/andreS2316QA/diario-alma/main/icono.png">', unsafe_allow_html=True)
     st.markdown(f"""
         <style>
         .stApp {{ background-color: {mood_color}; color: white; }}
